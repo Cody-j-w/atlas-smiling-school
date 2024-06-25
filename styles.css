@@ -1,0 +1,61 @@
+/* header {
+    font-family: 'Source Sans Pro';
+} */
+
+.header-bg {
+    background: url('./images/pic_1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 0%;
+}
+
+.logo {
+    font-family: coiny;
+}
+.logo-img {
+    width: 36px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 120px;
+}
+@media (max-width: 576px) {
+    h1 {
+        font-size: 60px;
+    }
+}
+
+.jumbotron {
+    background: transparent;
+    background-color: transparent;
+    padding: 0;
+}
+
+.btn-primary {
+    background-color: #C271FF;
+    border-color: #C271FF;
+}
+.btn-primary:hover {
+    background-color: #C271FF;
+    opacity: 0.9;
+    border-color: #C271FF;
+}
+
+.text-purple {
+    color: #C271FF;
+}
+
+.font-weight-boldest {
+    font-weight: 900;
+}
+
+.font-lg {
+    font-size: 18px;
+}
+
+.card {
+    background: transparent;
+    border: none;
+    color: #FFFFFF;
+}
