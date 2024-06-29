@@ -16,7 +16,7 @@
     width: 36px;
 }
 
-h1 {
+.title {
     font-weight: 700;
     font-size: 120px;
 }
@@ -32,6 +32,11 @@ h1 {
     padding: 0;
 }
 
+.subtitle {
+    font-size: 16px;
+    font-weight: 700;
+}
+
 .btn-primary {
     background-color: #C271FF;
     border-color: #C271FF;
@@ -45,17 +50,92 @@ h1 {
 .text-purple {
     color: #C271FF;
 }
+.bg-purple {
+    background-color: #C271FF;
+}
+
+.bg-navy {
+    background-color: #071629;
+}
+
+.text-navy {
+    color: #071629;
+}
 
 .font-weight-boldest {
     font-weight: 900;
 }
 
-.font-lg {
+.font-xl {
     font-size: 18px;
+}
+
+.font-lg {
+    font-size: 16px;
+}
+
+.font-md {
+    font-size: 14px;
 }
 
 .card {
     background: transparent;
     border: none;
     color: #FFFFFF;
+}
+.header-card {
+    height: 237px;
+    width: 150px;
+}
+
+.avatar {
+    height: 160px;
+    width: 160px;
+}
+
+.quote {
+    font-size: 22px;
+}
+
+.carousel-btn {
+    height: 62px;
+    width: 29px;
+}
+
+.video-card {
+    width: 255px;
+    height: 335px;
+    color: #071629;
+
+}
+
+.video-avatar {
+    height: 30px;
+}
+
+.rating-row {
+    height: 15px;
+}
+
+.rating-star {
+    width: 15px;
+}
+
+.membership-img {
+    height: 36px;
+    width: 45px;
+}
+
+.sm-icon {
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.footer-text {
+    font-size: 12px;
+    opacity: 35%;
+}
+
+.opacity-50 {
+    opacity: 50%;
 }
