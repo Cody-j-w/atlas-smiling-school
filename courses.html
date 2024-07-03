@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smile School</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Coiny&display=swap" rel="stylesheet">
+    
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+    <body>
+        <header class="courses-header-bg pt-3 pb-5">
+            <div class="container-md p-0">
+                <div class="navbar navbar-expand-md">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#smile-nav">
+                        <span class="holberton_school-icon-menu text-light"></span>
+                    </button>
+                    <a href="/homepage.html" class="navbar-brand logo text-light mx-auto mx-md-0"><img class="logo-img me-md-3 d-md-inline-block d-block mx-auto" src="./images/smile_off.png" alt="Logo">SmileSchool</a>
+                    <div id="smile-nav" class="navbar-collapse collapse justify-content-end">
+                        <ul class="navbar-nav">
+                            <li class="nav-item mr-sm-5 ml-sm-0 ml-5">
+                                <a class="nav-link text-light font-weight-bolder text-center" href="./courses.html">courses</a>
+                            </li>
+                            <li class="nav-item mr-sm-5 ml-sm-0 ml-5">
+                                <a class="nav-link text-light font-weight-bolder text-center" href="./pricing.html">pricing</a>
+                            </li>
+                            <li class="nav-item ml-sm-0 ml-5">
+                                <a class="nav-link text-light font-weight-bolder text-center" href="#">login</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="logo d-md-block d-hidden">
+                    <h1 class="text-light text-center d-md-block d-none">« Don’t cry because it’s over. <br>
+                        <span class="text-purple">Smile</span> because it happened. »</h1>
+                    </div>
+            </div>
+        </header>
+        <main>
+            <section class="bg-purple py-5">
+                <div class="container-md">
+                    <div class="row text-light justify-content-center">
+                        <div class="col-lg-4 col-md-10 col-12 justify-content-start">
+                            <p>KEYWORDS</p>
+                            <div class="input-group rounded-top border-bottom rounded-0 text-light w-100">
+                                <span class="input-group-text holberton_school-icon-search_1 btn btn-lg text-light border-bottom rounded-0 search-icon rounded-0 align-items-center top-left"></span>
+                                <input class="form-control btn-translucent btn btn-lg text-start rounded-0 border-bottom text-light top-right" type="text" placeholder="Search by Keywords">
+                            </div>
+                            
+                        </div>
+                        <div class="col-lg-4 col-md-5 col-12 justify-content-start">
+                            <p>TOPIC</p>
+                            <div class="btn-group rounded-top border-bottom rounded-0 text-light w-100">
+                                <button class="w-100 btn btn-translucent btn-lg dropdown-toggle rounded-0 rounded-top border-bottom text-start" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <span class="text-light opacity-100">Novice</span>
+                                </button>
+                                <ul class="dropdown-menu">
+                                ...
+                                </ul>
+                            </div>
+                            
+                        </div>
+                        <div class="col-lg-4 col-md-5 col-12 justify-content-start">
+                            <p>SORT BY</p>
+                            <div class="btn-group rounded-top border-bottom rounded-0 text-light w-100">
+                                <button class="w-100 btn btn-translucent btn-lg dropdown-toggle rounded-0 rounded-top border-bottom text-start" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <span class="text-light opacity-100">Most Popular</span>
+                                </button>
+                                <ul class="dropdown-menu">
+                                ...
+                                </ul>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="container-md text-center fs-2">
+                                <div class="row justify-content-md-start justify-content-center my-5">
+                                    <div class="col-lg-3 col-md-4 col-12 justify-content-center d-flex my-4">
+                                    <div class="card video-card">
+                                        <div class="position-relative w-100">
+                                        <img class="card-img-top" src="./images/thumbnail_4.jpg" alt="Diagonal smile">
+                                        <img class="w-25 position-absolute top-50 start-50 translate-middle" src="./images/play.png">
+                                        </div>
+                                        <h2 class="font-lg fw-bold text-start mt-3">Diagonal Smile</h2>
+                                        <p class="font-md opacity-50 text-start">Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.</p>
+                                        <div class="row justify-content-start d-flex align-items-center my-3">
+                                            <div class="col-2 justify-content-center d-flex align-items-center pe-0">
+                                                <img class="rounded-circle video-avatar d-inline-block" src="./images/profile_1.jpg" alt="video 3 author avatar">
+                                            </div>
+                                            <h3 class="font-md text-purple fw-bold d-inline col-8 m-0 ps-0 text-start ms-2">Phillip Massey</h3>
+                                        </div>
+                                        <div class="row justify-content-between align-items-center">
+                                            <div class="col-7 d-flex align-items-center">
+                                                <img class="rating-star" src="./images/star_on.png" alt="1">
+                                                <img class="rating-star" src="./images/star_on.png" alt="2">
+                                                <img class="rating-star" src="./images/star_on.png" alt="3">
+                                                <img class="rating-star" src="./images/star_on.png" alt="4">
+                                                <img class="rating-star" src="./images/star_off.png" alt="5">
+                                            </div>
+                                            <div class="col-3 d-inline">
+                                                <p class="text-purple fw-bold font-md m-0 align-bottom">8 min</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    </div>
+                                    <div class="col-lg-3 col-md-4 col-12 justify-content-center d-flex my-4">
+                                    <div class="card video-card">
+                                        <div class="position-relative w-100">
+                                        <img class="card-img-top" src="./images/thumbnail_3.jpg" alt="Sad smile">
+                                        <img class="w-25 position-absolute top-50 start-50 translate-middle" src="./images/play.png">
+                                        </div>
+                                        <h2 class="font-lg fw-bold text-start mt-3">Sad Smile</h2>
+                                        <p class="font-md opacity-50 text-start">Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.</p>
+                                        <div class="row justify-content-start d-flex align-items-center my-3">
+                                            <div class="col-2 justify-content-center d-flex align-items-center pe-0">
+                                                <img class="rounded-circle video-avatar d-inline-block" src="./images/profile_1.jpg" alt="video 3 author avatar">
+                                            </div>
+                                            <h3 class="font-md text-purple fw-bold d-inline col-8 m-0 ps-0 text-start ms-2">Phillip Massey</h3>
+                                        </div>
+                                        <div class="row justify-content-between align-items-center">
+                                            <div class="col-7 d-flex align-items-center">
+                                                <img class="rating-star" src="./images/star_on.png" alt="1">
+                                                <img class="rating-star" src="./images/star_on.png" alt="2">
+                                                <img class="rating-star" src="./images/star_on.png" alt="3">
+                                                <img class="rating-star" src="./images/star_on.png" alt="4">
+                                                <img class="rating-star" src="./images/star_off.png" alt="5">
+                                            </div>
+                                            <div class="col-3 d-inline">
+                                                <p class="text-purple fw-bold font-md m-0 align-bottom">8 min</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    </div>
+                                    <div class="col-lg-3 col-md-4 col-12 justify-content-center d-flex my-4">
+                                    <div class="card video-card">
+                                        <div class="position-relative w-100">
+                                        <img class="card-img-top" src="./images/thumbnail_1.jpg" alt="Natural smile">
+                                        <img class="w-25 position-absolute top-50 start-50 translate-middle" src="./images/play.png">
+                                        </div>
+                                        <h2 class="font-lg fw-bold text-start mt-3">Natural Smile</h2>
+                                        <p class="font-md opacity-50 text-start">Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.</p>
+                                        <div class="row justify-content-start d-flex align-items-center my-3">
+                                            <div class="col-2 justify-content-center d-flex align-items-center pe-0">
+                                                <img class="rounded-circle video-avatar d-inline-block" src="./images/profile_1.jpg" alt="video 3 author avatar">
+                                            </div>
+                                            <h3 class="font-md text-purple fw-bold d-inline col-8 m-0 ps-0 text-start ms-2">Phillip Massey</h3>
+                                        </div>
+                                        <div class="row justify-content-between align-items-center">
+                                            <div class="col-7 d-flex align-items-center">
+                                                <img class="rating-star" src="./images/star_on.png" alt="1">
+                                                <img class="rating-star" src="./images/star_on.png" alt="2">
+                                                <img class="rating-star" src="./images/star_on.png" alt="3">
+                                                <img class="rating-star" src="./images/star_on.png" alt="4">
+                                                <img class="rating-star" src="./images/star_off.png" alt="5">
+                                            </div>
+                                            <div class="col-3 d-inline">
+                                                <p class="text-purple fw-bold font-md m-0 align-bottom">8 min</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    </div>
+                                    <div class="col-lg-3 col-md-4 col-12 justify-content-center d-flex my-4">
+                                    <div class="card video-card">
+                                        <div class="position-relative w-100">
+                                        <img class="card-img-top" src="./images/thumbnail_2.jpg" alt="Happy smile">
+                                        <img class="w-25 position-absolute top-50 start-50 translate-middle" src="./images/play.png">
+                                        </div>
+                                        <h2 class="font-lg fw-bold text-start mt-3">Happy Smile</h2>
+                                        <p class="font-md opacity-50 text-start">Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.</p>
+                                        <div class="row justify-content-start d-flex align-items-center my-3">
+                                            <div class="col-2 justify-content-center d-flex align-items-center pe-0">
+                                                <img class="rounded-circle video-avatar d-inline-block" src="./images/profile_1.jpg" alt="video 3 author avatar">
+                                            </div>
+                                            <h3 class="font-md text-purple fw-bold d-inline col-8 m-0 ps-0 text-start ms-2">Phillip Massey</h3>
+                                        </div>
+                                        <div class="row justify-content-between align-items-center">
+                                            <div class="col-7 d-flex align-items-center">
+                                                <img class="rating-star" src="./images/star_on.png" alt="1">
+                                                <img class="rating-star" src="./images/star_on.png" alt="2">
+                                                <img class="rating-star" src="./images/star_on.png" alt="3">
+                                                <img class="rating-star" src="./images/star_on.png" alt="4">
+                                                <img class="rating-star" src="./images/star_off.png" alt="5">
+                                            </div>
+                                            <div class="col-3 d-inline">
+                                                <p class="text-purple fw-bold font-md m-0 align-bottom">8 min</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    </div>
+                                   
+                                    <div class="col-lg-3 col-md-4 col-12 justify-content-center d-flex my-4">
+                                    <div class="card video-card">
+                                        <div class="position-relative w-100">
+                                        <img class="card-img-top" src="./images/thumbnail_4.jpg" alt="Diagonal smile">
+                                        <img class="w-25 position-absolute top-50 start-50 translate-middle" src="./images/play.png">
+                                        </div>
+                                        <h2 class="font-lg fw-bold text-start mt-3">Diagonal Smile</h2>
+                                        <p class="font-md opacity-50 text-start">Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.</p>
+                                        <div class="row justify-content-start d-flex align-items-center my-3">
+                                            <div class="col-2 justify-content-center d-flex align-items-center pe-0">
+                                                <img class="rounded-circle video-avatar d-inline-block" src="./images/profile_1.jpg" alt="video 3 author avatar">
+                                            </div>
+                                            <h3 class="font-md text-purple fw-bold d-inline col-8 m-0 ps-0 text-start ms-2">Phillip Massey</h3>
+                                        </div>
+                                        <div class="row justify-content-between align-items-center">
+                                            <div class="col-7 d-flex align-items-center">
+                                                <img class="rating-star" src="./images/star_on.png" alt="1">
+                                                <img class="rating-star" src="./images/star_on.png" alt="2">
+                                                <img class="rating-star" src="./images/star_on.png" alt="3">
+                                                <img class="rating-star" src="./images/star_on.png" alt="4">
+                                                <img class="rating-star" src="./images/star_off.png" alt="5">
+                                            </div>
+                                            <div class="col-3 d-inline">
+                                                <p class="text-purple fw-bold font-md m-0 align-bottom">8 min</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    </div>
+                                    <div class="col-lg-3 col-md-4 col-12 justify-content-center d-flex my-4">
+                                    <div class="card video-card">
+                                        <div class="position-relative w-100">
+                                        <img class="card-img-top" src="./images/thumbnail_3.jpg" alt="Sad smile">
+                                        <img class="w-25 position-absolute top-50 start-50 translate-middle" src="./images/play.png">
+                                        </div>
+                                        <h2 class="font-lg fw-bold text-start mt-3">Sad Smile</h2>
+                                        <p class="font-md opacity-50 text-start">Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.</p>
+                                        <div class="row justify-content-start d-flex align-items-center my-3">
+                                            <div class="col-2 justify-content-center d-flex align-items-center pe-0">
+                                                <img class="rounded-circle video-avatar d-inline-block" src="./images/profile_1.jpg" alt="video 3 author avatar">
+                                            </div>
+                                            <h3 class="font-md text-purple fw-bold d-inline col-8 m-0 ps-0 text-start ms-2">Phillip Massey</h3>
+                                        </div>
+                                        <div class="row justify-content-between align-items-center">
+                                            <div class="col-7 d-flex align-items-center">
+                                                <img class="rating-star" src="./images/star_on.png" alt="1">
+                                                <img class="rating-star" src="./images/star_on.png" alt="2">
+                                                <img class="rating-star" src="./images/star_on.png" alt="3">
+                                                <img class="rating-star" src="./images/star_on.png" alt="4">
+                                                <img class="rating-star" src="./images/star_off.png" alt="5">
+                                            </div>
+                                            <div class="col-3 d-inline">
+                                                <p class="text-purple fw-bold font-md m-0 align-bottom">8 min</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    </div>
+                                    <div class="col-lg-3 col-md-4 col-12 justify-content-center d-flex my-4">
+                                    <div class="card video-card">
+                                        <div class="position-relative w-100">
+                                        <img class="card-img-top" src="./images/thumbnail_1.jpg" alt="Natural smile">
+                                        <img class="w-25 position-absolute top-50 start-50 translate-middle" src="./images/play.png">
+                                        </div>
+                                        <h2 class="font-lg fw-bold text-start mt-3">Natural Smile</h2>
+                                        <p class="font-md opacity-50 text-start">Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.</p>
+                                        <div class="row justify-content-start d-flex align-items-center my-3">
+                                            <div class="col-2 justify-content-center d-flex align-items-center pe-0">
+                                                <img class="rounded-circle video-avatar d-inline-block" src="./images/profile_1.jpg" alt="video 3 author avatar">
+                                            </div>
+                                            <h3 class="font-md text-purple fw-bold d-inline col-8 m-0 ps-0 text-start ms-2">Phillip Massey</h3>
+                                        </div>
+                                        <div class="row justify-content-between align-items-center">
+                                            <div class="col-7 d-flex align-items-center">
+                                                <img class="rating-star" src="./images/star_on.png" alt="1">
+                                                <img class="rating-star" src="./images/star_on.png" alt="2">
+                                                <img class="rating-star" src="./images/star_on.png" alt="3">
+                                                <img class="rating-star" src="./images/star_on.png" alt="4">
+                                                <img class="rating-star" src="./images/star_off.png" alt="5">
+                                            </div>
+                                            <div class="col-3 d-inline">
+                                                <p class="text-purple fw-bold font-md m-0 align-bottom">8 min</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    </div>
+                                    <div class="col-lg-3 col-md-4 col-12 justify-content-center d-flex my-4">
+                                    <div class="card video-card">
+                                        <div class="position-relative w-100">
+                                        <img class="card-img-top" src="./images/thumbnail_2.jpg" alt="Happy smile">
+                                        <img class="w-25 position-absolute top-50 start-50 translate-middle" src="./images/play.png">
+                                        </div>
+                                        <h2 class="font-lg fw-bold text-start mt-3">Happy Smile</h2>
+                                        <p class="font-md opacity-50 text-start">Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.</p>
+                                        <div class="row justify-content-start d-flex align-items-center my-3">
+                                            <div class="col-2 justify-content-center d-flex align-items-center pe-0">
+                                                <img class="rounded-circle video-avatar d-inline-block" src="./images/profile_1.jpg" alt="video 3 author avatar">
+                                            </div>
+                                            <h3 class="font-md text-purple fw-bold d-inline col-8 m-0 ps-0 text-start ms-2">Phillip Massey</h3>
+                                        </div>
+                                        <div class="row justify-content-between align-items-center">
+                                            <div class="col-7 d-flex align-items-center">
+                                                <img class="rating-star" src="./images/star_on.png" alt="1">
+                                                <img class="rating-star" src="./images/star_on.png" alt="2">
+                                                <img class="rating-star" src="./images/star_on.png" alt="3">
+                                                <img class="rating-star" src="./images/star_on.png" alt="4">
+                                                <img class="rating-star" src="./images/star_off.png" alt="5">
+                                            </div>
+                                            <div class="col-3 d-inline">
+                                                <p class="text-purple fw-bold font-md m-0 align-bottom">8 min</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    </div>
+                                   
+                                    <div class="col-lg-3 col-md-4 col-12 justify-content-center d-flex my-4">
+                                    <div class="card video-card">
+                                        <div class="position-relative w-100">
+                                        <img class="card-img-top" src="./images/thumbnail_4.jpg" alt="Diagonal smile">
+                                        <img class="w-25 position-absolute top-50 start-50 translate-middle" src="./images/play.png">
+                                        </div>
+                                        <h2 class="font-lg fw-bold text-start mt-3">Diagonal Smile</h2>
+                                        <p class="font-md opacity-50 text-start">Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.</p>
+                                        <div class="row justify-content-start d-flex align-items-center my-3">
+                                            <div class="col-2 justify-content-center d-flex align-items-center pe-0">
+                                                <img class="rounded-circle video-avatar d-inline-block" src="./images/profile_1.jpg" alt="video 3 author avatar">
+                                            </div>
+                                            <h3 class="font-md text-purple fw-bold d-inline col-8 m-0 ps-0 text-start ms-2">Phillip Massey</h3>
+                                        </div>
+                                        <div class="row justify-content-between align-items-center">
+                                            <div class="col-7 d-flex align-items-center">
+                                                <img class="rating-star" src="./images/star_on.png" alt="1">
+                                                <img class="rating-star" src="./images/star_on.png" alt="2">
+                                                <img class="rating-star" src="./images/star_on.png" alt="3">
+                                                <img class="rating-star" src="./images/star_on.png" alt="4">
+                                                <img class="rating-star" src="./images/star_off.png" alt="5">
+                                            </div>
+                                            <div class="col-3 d-inline">
+                                                <p class="text-purple fw-bold font-md m-0 align-bottom">8 min</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    </div>
+                                    <div class="col-lg-3 col-md-4 col-12 justify-content-center d-flex my-4">
+                                    <div class="card video-card">
+                                        <div class="position-relative w-100">
+                                        <img class="card-img-top" src="./images/thumbnail_3.jpg" alt="Sad smile">
+                                        <img class="w-25 position-absolute top-50 start-50 translate-middle" src="./images/play.png">
+                                        </div>
+                                        <h2 class="font-lg fw-bold text-start mt-3">Sad Smile</h2>
+                                        <p class="font-md opacity-50 text-start">Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.</p>
+                                        <div class="row justify-content-start d-flex align-items-center my-3">
+                                            <div class="col-2 justify-content-center d-flex align-items-center pe-0">
+                                                <img class="rounded-circle video-avatar d-inline-block" src="./images/profile_1.jpg" alt="video 3 author avatar">
+                                            </div>
+                                            <h3 class="font-md text-purple fw-bold d-inline col-8 m-0 ps-0 text-start ms-2">Phillip Massey</h3>
+                                        </div>
+                                        <div class="row justify-content-between align-items-center">
+                                            <div class="col-7 d-flex align-items-center">
+                                                <img class="rating-star" src="./images/star_on.png" alt="1">
+                                                <img class="rating-star" src="./images/star_on.png" alt="2">
+                                                <img class="rating-star" src="./images/star_on.png" alt="3">
+                                                <img class="rating-star" src="./images/star_on.png" alt="4">
+                                                <img class="rating-star" src="./images/star_off.png" alt="5">
+                                            </div>
+                                            <div class="col-3 d-inline">
+                                                <p class="text-purple fw-bold font-md m-0 align-bottom">8 min</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    </div>
+                                    <div class="col-lg-3 col-md-4 col-12 justify-content-center d-flex my-4">
+                                    <div class="card video-card">
+                                        <div class="position-relative w-100">
+                                        <img class="card-img-top" src="./images/thumbnail_1.jpg" alt="Natural smile">
+                                        <img class="w-25 position-absolute top-50 start-50 translate-middle" src="./images/play.png">
+                                        </div>
+                                        <h2 class="font-lg fw-bold text-start mt-3">Natural Smile</h2>
+                                        <p class="font-md opacity-50 text-start">Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.</p>
+                                        <div class="row justify-content-start d-flex align-items-center my-3">
+                                            <div class="col-2 justify-content-center d-flex align-items-center pe-0">
+                                                <img class="rounded-circle video-avatar d-inline-block" src="./images/profile_1.jpg" alt="video 3 author avatar">
+                                            </div>
+                                            <h3 class="font-md text-purple fw-bold d-inline col-8 m-0 ps-0 text-start ms-2">Phillip Massey</h3>
+                                        </div>
+                                        <div class="row justify-content-between align-items-center">
+                                            <div class="col-7 d-flex align-items-center">
+                                                <img class="rating-star" src="./images/star_on.png" alt="1">
+                                                <img class="rating-star" src="./images/star_on.png" alt="2">
+                                                <img class="rating-star" src="./images/star_on.png" alt="3">
+                                                <img class="rating-star" src="./images/star_on.png" alt="4">
+                                                <img class="rating-star" src="./images/star_off.png" alt="5">
+                                            </div>
+                                            <div class="col-3 d-inline">
+                                                <p class="text-purple fw-bold font-md m-0 align-bottom">8 min</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    </div>
+                                    <div class="col-lg-3 col-md-4 col-12 justify-content-center d-flex my-4">
+                                    <div class="card video-card">
+                                        <div class="position-relative w-100">
+                                        <img class="card-img-top" src="./images/thumbnail_2.jpg" alt="Happy smile">
+                                        <img class="w-25 position-absolute top-50 start-50 translate-middle" src="./images/play.png">
+                                        </div>
+                                        <h2 class="font-lg fw-bold text-start mt-3">Happy Smile</h2>
+                                        <p class="font-md opacity-50 text-start">Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.</p>
+                                        <div class="row justify-content-start d-flex align-items-center my-3">
+                                            <div class="col-2 justify-content-center d-flex align-items-center pe-0">
+                                                <img class="rounded-circle video-avatar d-inline-block" src="./images/profile_1.jpg" alt="video 3 author avatar">
+                                            </div>
+                                            <h3 class="font-md text-purple fw-bold d-inline col-8 m-0 ps-0 text-start ms-2">Phillip Massey</h3>
+                                        </div>
+                                        <div class="row justify-content-between align-items-center">
+                                            <div class="col-7 d-flex align-items-center">
+                                                <img class="rating-star" src="./images/star_on.png" alt="1">
+                                                <img class="rating-star" src="./images/star_on.png" alt="2">
+                                                <img class="rating-star" src="./images/star_on.png" alt="3">
+                                                <img class="rating-star" src="./images/star_on.png" alt="4">
+                                                <img class="rating-star" src="./images/star_off.png" alt="5">
+                                            </div>
+                                            <div class="col-3 d-inline">
+                                                <p class="text-purple fw-bold font-md m-0 align-bottom">8 min</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    </div>
+                                   
+                                    <div class="col-lg-3 col-md-4 col-12 justify-content-center d-flex my-4">
+                                    <div class="card video-card">
+                                        <div class="position-relative w-100">
+                                        <img class="card-img-top" src="./images/thumbnail_4.jpg" alt="Diagonal smile">
+                                        <img class="w-25 position-absolute top-50 start-50 translate-middle" src="./images/play.png">
+                                        </div>
+                                        <h2 class="font-lg fw-bold text-start mt-3">Diagonal Smile</h2>
+                                        <p class="font-md opacity-50 text-start">Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.</p>
+                                        <div class="row justify-content-start d-flex align-items-center my-3">
+                                            <div class="col-2 justify-content-center d-flex align-items-center pe-0">
+                                                <img class="rounded-circle video-avatar d-inline-block" src="./images/profile_1.jpg" alt="video 3 author avatar">
+                                            </div>
+                                            <h3 class="font-md text-purple fw-bold d-inline col-8 m-0 ps-0 text-start ms-2">Phillip Massey</h3>
+                                        </div>
+                                        <div class="row justify-content-between align-items-center">
+                                            <div class="col-7 d-flex align-items-center">
+                                                <img class="rating-star" src="./images/star_on.png" alt="1">
+                                                <img class="rating-star" src="./images/star_on.png" alt="2">
+                                                <img class="rating-star" src="./images/star_on.png" alt="3">
+                                                <img class="rating-star" src="./images/star_on.png" alt="4">
+                                                <img class="rating-star" src="./images/star_off.png" alt="5">
+                                            </div>
+                                            <div class="col-3 d-inline">
+                                                <p class="text-purple fw-bold font-md m-0 align-bottom">8 min</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    </div>
+                                    <div class="col-lg-3 col-md-4 col-12 justify-content-center d-flex my-4">
+                                    <div class="card video-card">
+                                        <div class="position-relative w-100">
+                                        <img class="card-img-top" src="./images/thumbnail_3.jpg" alt="Sad smile">
+                                        <img class="w-25 position-absolute top-50 start-50 translate-middle" src="./images/play.png">
+                                        </div>
+                                        <h2 class="font-lg fw-bold text-start mt-3">Sad Smile</h2>
+                                        <p class="font-md opacity-50 text-start">Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.</p>
+                                        <div class="row justify-content-start d-flex align-items-center my-3">
+                                            <div class="col-2 justify-content-center d-flex align-items-center pe-0">
+                                                <img class="rounded-circle video-avatar d-inline-block" src="./images/profile_1.jpg" alt="video 3 author avatar">
+                                            </div>
+                                            <h3 class="font-md text-purple fw-bold d-inline col-8 m-0 ps-0 text-start ms-2">Phillip Massey</h3>
+                                        </div>
+                                        <div class="row justify-content-between align-items-center">
+                                            <div class="col-7 d-flex align-items-center">
+                                                <img class="rating-star" src="./images/star_on.png" alt="1">
+                                                <img class="rating-star" src="./images/star_on.png" alt="2">
+                                                <img class="rating-star" src="./images/star_on.png" alt="3">
+                                                <img class="rating-star" src="./images/star_on.png" alt="4">
+                                                <img class="rating-star" src="./images/star_off.png" alt="5">
+                                            </div>
+                                            <div class="col-3 d-inline">
+                                                <p class="text-purple fw-bold font-md m-0 align-bottom">8 min</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    </div>
+                                    <div class="col-lg-3 col-md-4 col-12 justify-content-center d-flex my-4">
+                                    <div class="card video-card">
+                                        <div class="position-relative w-100">
+                                        <img class="card-img-top" src="./images/thumbnail_1.jpg" alt="Natural smile">
+                                        <img class="w-25 position-absolute top-50 start-50 translate-middle" src="./images/play.png">
+                                        </div>
+                                        <h2 class="font-lg fw-bold text-start mt-3">Natural Smile</h2>
+                                        <p class="font-md opacity-50 text-start">Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.</p>
+                                        <div class="row justify-content-start d-flex align-items-center my-3">
+                                            <div class="col-2 justify-content-center d-flex align-items-center pe-0">
+                                                <img class="rounded-circle video-avatar d-inline-block" src="./images/profile_1.jpg" alt="video 3 author avatar">
+                                            </div>
+                                            <h3 class="font-md text-purple fw-bold d-inline col-8 m-0 ps-0 text-start ms-2">Phillip Massey</h3>
+                                        </div>
+                                        <div class="row justify-content-between align-items-center">
+                                            <div class="col-7 d-flex align-items-center">
+                                                <img class="rating-star" src="./images/star_on.png" alt="1">
+                                                <img class="rating-star" src="./images/star_on.png" alt="2">
+                                                <img class="rating-star" src="./images/star_on.png" alt="3">
+                                                <img class="rating-star" src="./images/star_on.png" alt="4">
+                                                <img class="rating-star" src="./images/star_off.png" alt="5">
+                                            </div>
+                                            <div class="col-3 d-inline">
+                                                <p class="text-purple fw-bold font-md m-0 align-bottom">8 min</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    </div>
+                                    <div class="col-lg-3 col-md-4 col-12 justify-content-center d-flex my-4">
+                                    <div class="card video-card">
+                                        <div class="position-relative w-100">
+                                        <img class="card-img-top" src="./images/thumbnail_2.jpg" alt="Happy smile">
+                                        <img class="w-25 position-absolute top-50 start-50 translate-middle" src="./images/play.png">
+                                        </div>
+                                        <h2 class="font-lg fw-bold text-start mt-3">Happy Smile</h2>
+                                        <p class="font-md opacity-50 text-start">Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.</p>
+                                        <div class="row justify-content-start d-flex align-items-center my-3">
+                                            <div class="col-2 justify-content-center d-flex align-items-center pe-0">
+                                                <img class="rounded-circle video-avatar d-inline-block" src="./images/profile_1.jpg" alt="video 3 author avatar">
+                                            </div>
+                                            <h3 class="font-md text-purple fw-bold d-inline col-8 m-0 ps-0 text-start ms-2">Phillip Massey</h3>
+                                        </div>
+                                       
+                                        <div class="row justify-content-between align-items-center">
+                                            <div class="col-7 d-flex align-items-center">
+                                                <img class="rating-star" src="./images/star_on.png" alt="1">
+                                                <img class="rating-star" src="./images/star_on.png" alt="2">
+                                                <img class="rating-star" src="./images/star_on.png" alt="3">
+                                                <img class="rating-star" src="./images/star_on.png" alt="4">
+                                                <img class="rating-star" src="./images/star_off.png" alt="5">
+                                            </div>
+                                            <div class="col-3 d-inline">
+                                                <p class="text-purple fw-bold font-md m-0 align-bottom">8 min</p>
+                                            </div>
+                                        </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+            </section>
+        </main>
+        <footer class="bg-navy">
+            <div class="container-md text-center pb-4 pt-5">
+                <div class="row py-5 d-flex justify-content-between">
+                    <div class="col-sm-3 col-12 align-items-center row">
+                        <a href="/homepage.html" class="navbar-brand logo text-light mx-auto mx-md-0"><img class="logo-img me-md-3 d-md-inline-block d-block mx-auto" src="./images/smile_off.png" alt="Logo">SmileSchool</a>
+                    </div>
+                    <div class="col-sm-4 col-12 justify-content-between">
+                        <a class="sm-icon" href="#">
+                            <span class="text-light sm-icon holberton_school-icon-ic_facebook"></span>
+                        </a>
+                        <a class="sm-icon" href="#">
+                            <span class="text-light sm-icon holberton_school-icon-ic_twitter"></span>
+                        </a>
+                        <a class="sm-icon" href="#">
+                            <span class="text-light sm-icon holberton_school-icon-ic_instagram"></span>
+                        </a>
+                    </div>
+                </div>
+                <p class="text-light footer-text">©smileschool 2020</p>
+            </div>
+        </footer>
+    </body>
+</html>
