@@ -7,3 +7,5 @@ Main page has a carousel of quotes, two carousels of videos, and a dropdown menu
 Pricing page has a table of glyphs with an image on the last row, glyph aligned with image, and another quote carousel.
 
 Courses page has a large list of video cards, and a form to search for specific videos.
+
+Site may be accessed at https://cody-j-w.github.io/atlas-smiling-school/homepage
